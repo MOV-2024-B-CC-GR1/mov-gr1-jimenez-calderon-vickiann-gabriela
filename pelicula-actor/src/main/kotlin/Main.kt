@@ -21,7 +21,7 @@ data class Actor(
 ) : Serializable
 
 // Archivo para datos y lista de películas
-private const val FILE_NAME = "C:/Users/Sloth/OneDrive - Escuela Politécnica Nacional/Documentos/2024-B/Aplicaciones Móviles/mov-gr1-jimenez-calderon-vickiann-gabriela/pelicula-actor/peliculas.dat"
+private const val FILE_NAME = "peliculas.dat"
 private var peliculas: MutableList<Pelicula> = mutableListOf()
 
 fun main() {
