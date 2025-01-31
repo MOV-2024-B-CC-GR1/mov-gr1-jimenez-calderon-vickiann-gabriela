@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/movieTitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Título de la película" />
+
+    <EditText
+        android:id="@+id/movieGenreEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Género de la película" />
+
+    <!-- Campo para el director -->
+    <EditText
+        android:id="@+id/movieDirectorEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_movie_director"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+
+    <!-- Campo para la duración -->
+    <EditText
+        android:id="@+id/movieDurationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_movie_duration"
+        android:inputType="number"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+
+    <!-- Campo para la fecha de lanzamiento -->
+    <EditText
+        android:id="@+id/movieReleaseDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_movie_release_date"
+        android:inputType="date"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+
+
+    <Button
+        android:id="@+id/updateMovieButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Película" />
+</LinearLayout>

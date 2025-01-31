@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Nombre del actor -->
+    <EditText
+        android:id="@+id/actorNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Nombre del actor"
+        android:inputType="textPersonName" />
+
+    <!-- Edad -->
+    <EditText
+        android:id="@+id/actorAgeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Edad"
+        android:inputType="number" />
+
+    <!-- Nacionalidad -->
+    <EditText
+        android:id="@+id/actorNationalityEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Nacionalidad"
+        android:inputType="textPersonName" />
+
+    <!-- Ganador del Oscar -->
+    <CheckBox
+        android:id="@+id/actorOscarWinnerCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Ganador del Oscar?" />
+
+    <!-- Salario -->
+    <EditText
+        android:id="@+id/actorSalaryEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Salario"
+        android:inputType="numberDecimal" />
+
+    <!-- Botón Agregar -->
+    <Button
+        android:id="@+id/addActorButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Actor" />
+</LinearLayout>

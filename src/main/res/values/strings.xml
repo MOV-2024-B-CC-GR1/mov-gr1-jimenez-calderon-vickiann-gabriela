@@ -1,0 +1,22 @@
+<resources>
+    <string name="create_movie_button">Agregar Película</string>
+    <string name="genre_format">Género: %s</string>
+    <string name="director_format">Director: %s</string>
+    <string name="duration_format">Duración: %d min</string>
+    <string name="release_date_format">Fecha de Estreno: %s</string>
+    <string name="hint_movie_title">Ingrese el título</string>
+    <string name="hint_movie_genre">Ingrese el género</string>
+    <string name="hint_movie_director">Ingrese el director</string>
+    <string name="hint_movie_duration">Ingrese Duración de la película (min)</string>
+    <string name="hint_movie_release_date">Ingrese la fecha de estremo</string>
+    <string name="save_movie_button">Guardar Película</string>
+    <string name="actor_age">Edad: %1$d</string>
+    <string name="update_movie_button">Actualizar Película</string>
+    <string name="delete_movie_button">Eliminar Película</string>
+    <string name="app_name">MovieActorApp</string>
+    <string name="add_movie">Agregar Película</string>
+    <string name="view_movies">Ver Todas las Películas</string>
+    <string name="read_actors">Leer Actores</string>
+    <string name="add_actor">Agregar Actor</string>
+</resources>
+

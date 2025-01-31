@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Campo para el título de la película -->
+    <EditText
+        android:id="@+id/movieTitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_movie_title"
+        android:inputType="text"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+
+    <!-- Campo para el género -->
+    <EditText
+        android:id="@+id/movieGenreEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_movie_genre"
+        android:inputType="text"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+
+    <!-- Campo para el director -->
+    <EditText
+        android:id="@+id/movieDirectorEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_movie_director"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+
+    <!-- Campo para la duración -->
+    <EditText
+        android:id="@+id/movieDurationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_movie_duration"
+        android:inputType="number"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+
+    <!-- Campo para la fecha de lanzamiento -->
+    <EditText
+        android:id="@+id/movieReleaseDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_movie_release_date"
+        android:inputType="date"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/addActorsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Añadir Actores" />
+
+    <ListView
+        android:id="@+id/selectedActorsListView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+
+    <!-- Botón para guardar la película -->
+    <Button
+        android:id="@+id/saveMovieButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_movie_button"
+        android:layout_gravity="center"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+</LinearLayout>
