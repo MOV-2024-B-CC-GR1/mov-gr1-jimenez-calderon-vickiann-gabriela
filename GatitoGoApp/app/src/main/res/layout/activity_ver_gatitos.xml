@@ -1,0 +1,265 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Título -->
+        <TextView
+            android:id="@+id/textTituloGatitos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¡Tu gatito te está esperando!"
+            android:textColor="#5D4037"
+            android:textSize="20sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Contenedor de los gatitos -->
+        <GridLayout
+            android:id="@+id/gridGatitos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:layout_marginTop="8dp"
+            >
+
+
+            <!-- Primer gatito -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/buttonGatito1"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp"
+                android:clickable="true"
+                android:focusable="true">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <!-- Imagen del gatito -->
+                    <ImageView
+                        android:id="@+id/imageGatito1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/canela" />
+
+                    <!-- Franja con el nombre -->
+                    <TextView
+                        android:id="@+id/textNombreGatito1"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:background="#D2B48C"
+                        android:gravity="center"
+                        android:text="Canela"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Segundo gatito -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/buttonGatito2"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp"
+                android:clickable="true"
+                android:focusable="true">
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <!-- Imagen del gatito -->
+                    <ImageView
+                        android:id="@+id/imageGatito2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/rayitas" />
+
+                    <!-- Franja con el nombre -->
+                    <TextView
+                        android:id="@+id/textNombreGatito2"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:background="#D2B48C"
+                        android:gravity="center"
+                        android:text="Rayitas"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Tercer gatito -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/buttonGatito3"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp"
+                android:clickable="true"
+                android:focusable="true">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <!-- Imagen del gatito -->
+                    <ImageView
+                        android:id="@+id/imageGatito3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/carboncito" />
+
+                    <!-- Franja con el nombre -->
+                    <TextView
+                        android:id="@+id/textNombreGatito3"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:background="#D2B48C"
+                        android:gravity="center"
+                        android:text="Carboncito"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Cuarto gatito -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/buttonGatito4"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp"
+                android:clickable="true"
+                android:focusable="true">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <!-- Imagen del gatito -->
+                    <ImageView
+                        android:id="@+id/imageGatito4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/garfield" />
+
+                    <!-- Franja con el nombre -->
+                    <TextView
+                        android:id="@+id/textNombreGatito4"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:background="#D2B48C"
+                        android:gravity="center"
+                        android:text="Garfield"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Quito gatito -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/buttonGatito5"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp"
+                android:clickable="true"
+                android:focusable="true">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <!-- Imagen del gatito -->
+                    <ImageView
+                        android:id="@+id/imageGatito5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/luna" />
+
+                    <!-- Franja con el nombre -->
+                    <TextView
+                        android:id="@+id/textNombreGatito5"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:background="#D2B48C"
+                        android:gravity="center"
+                        android:text="Luna"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Sexto gatito -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/buttonGatito6"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp"
+                android:clickable="true"
+                android:focusable="true">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <!-- Imagen del gatito -->
+                    <ImageView
+                        android:id="@+id/imageGatito6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/manchitas" />
+
+                    <!-- Franja con el nombre -->
+                    <TextView
+                        android:id="@+id/textNombreGatito6"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:background="#D2B48C"
+                        android:gravity="center"
+                        android:text="Manchitas"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>
